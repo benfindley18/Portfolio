@@ -3,7 +3,7 @@ import './Nav.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
-class Navigation extends React.Component {
+class Nav extends React.Component {
     state = {}
 
 
@@ -29,4 +29,4 @@ class Navigation extends React.Component {
 }
 
 
-export default Navigation;
+export default Nav;
