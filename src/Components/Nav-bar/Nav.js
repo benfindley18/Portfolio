@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Nav.scss'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 class Navigation extends React.Component {
@@ -9,7 +10,7 @@ class Navigation extends React.Component {
     render() {
 
         return (
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="navbar">
                     <Nav className="dropdown">
@@ -22,7 +23,7 @@ class Navigation extends React.Component {
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
-            </Navbar>
+            </ Navbar>
         )
     }
 }

@@ -15,6 +15,8 @@ class Header extends React.Component {
                 <h3>
                     Based in Indianapolis, Indiana
                 </h3>
+
+                <i class="fa fa-github" aria-hidden="true"></i>
             </>
         )
     }

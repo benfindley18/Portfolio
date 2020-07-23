@@ -1,0 +1,32 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    margin: 3em auto;
+        input {
+            margin-bottom: 3em;
+            padding-left: 11em;
+            height: 2em;
+            border-radius: 2em;
+        }
+        textarea{
+            padding-left: 1em;
+            border-radius: .5em;
+        }
+        a {
+            margin: 1.5em auto;
+        }
+}
+
+
+hr {
+    width: 70%;
+    border: .5px solid rgba(170, 170, 170, 0.486);
+}
+
+.icons {
+    text-align: center;
+        .github {
+            margin-left: 4em;
+        }
+}

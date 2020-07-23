@@ -1,40 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
-
 $bg-url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC";
 $bg-width: 50px;
 $bg-height: 50px;
 
-/* Animations */
-@-webkit-keyframes bg-scrolling-reverse {
-  100% { background-position: $bg-width $bg-height; }
-}
-@-moz-keyframes    bg-scrolling-reverse {
-  100% { background-position: $bg-width $bg-height; }
-}
-@-o-keyframes      bg-scrolling-reverse {
-  100% { background-position: $bg-width $bg-height; }
-}
+// Animations
 @keyframes         bg-scrolling-reverse {
   100% { background-position: $bg-width $bg-height; }
-}
-
-@-webkit-keyframes bg-scrolling {
-  0% { background-position: $bg-width $bg-height; }
-}
-@-moz-keyframes    bg-scrolling {
-  0% { background-position: $bg-width $bg-height; }
-}
-@-o-keyframes      bg-scrolling {
-  0% { background-position: $bg-width $bg-height; }
 }
 @keyframes         bg-scrolling {
   0% { background-position: $bg-width $bg-height; }
 }
 
+// General Styles
 body {
+  height: 60vh;
   margin-top: 19em;
-  color: rgb(78, 78, 78);
-  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  color: rgb(53, 31, 66);
+  font:  16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   text-align: center;
   background: url($bg-url) repeat 0 0;
   animation: bg-scrolling-reverse 2s infinite;
@@ -47,3 +29,15 @@ body {
     font-style: normal;
   }
 }
+
+.icon {
+  display: inline-block;
+  transform: rotateY(0deg);
+  transition: transform 0.2s ease-in-out, color 0.2s linear;} 
+  
+    icon:hover {
+      color: rgba(111,66,193,0.8);
+      transform: rotateY(360deg);
+      transition: transform 0.6s ease-in-out, color 0.4s linear;
+    }
+  
