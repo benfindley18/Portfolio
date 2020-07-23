@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.contactHeader {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
 .contactForm {
     display: flex;
     flex-direction: column;
     width: 25em;
-    margin: 3em auto;
+    margin: 2em auto;
         input {
             margin-bottom: 3em;
             padding-left: 11em;
             height: 2em;
-            border-radius: 2em;
+            border-radius: 1em;
         }
         textarea{
             padding-left: 1em;

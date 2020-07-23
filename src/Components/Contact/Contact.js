@@ -10,9 +10,12 @@ class Contact extends React.Component {
 
         return (
             <>
-                <div className='backgroundBox'>
-                    <ReactContactForm className='contactForm' to="benfindley18@gmail.com" />
+                <div className='contactHeader'>
+                    <h1>Contact</h1>
+
+                    <p>Have a question or want to talk?</p>
                 </div>
+                <ReactContactForm className='contactForm' to="benfindley18@gmail.com" />
                 <hr />
 
                 <div className='icons'>
