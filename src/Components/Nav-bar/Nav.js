@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
-import './Nav.scss';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
-class Nav extends React.Component {
+class Navigation extends React.Component {
     state = {}
 
 
@@ -29,4 +28,4 @@ class Nav extends React.Component {
 }
 
 
-export default Nav;
+export default Navigation;
