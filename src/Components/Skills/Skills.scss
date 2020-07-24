@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skillCard {
+    width: min-content;
+    text-align: center;
+    margin-right: 4em;
+    margin-bottom: 3em;
+        img {
+            margin-bottom: 1em;
+        }
+}
+
+.header {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.container {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50em;
+}
+
+.ui {
+    margin-left: 4em;
+}
+.photoshop {
+    margin-right: 8em;
+}

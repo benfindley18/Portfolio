@@ -15,11 +15,12 @@ class Navigation extends React.Component {
                 <Navbar.Collapse id="navbar">
                     <Nav className="dropdown">
                         <Nav.Link href="#features"> Home </Nav.Link>
-                        <Nav.Link href="#pricing"> Contact </Nav.Link>
-                        <NavDropdown title=" Projects " id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1"> Hive </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2"> Password Strength </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3"> Plume </NavDropdown.Item>
+                        <Nav.Link href="#pricing"> Skills </Nav.Link>
+                        <Nav.Link href="#pricing"> Projects </Nav.Link>
+                        <NavDropdown title=" More " id="collasible-nav-dropdown">
+                            <NavDropdown.Item href="#action/3.1"> About </NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2"> Resume </NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3"> Contact </NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
