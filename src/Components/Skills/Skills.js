@@ -42,8 +42,6 @@ class Skills extends React.Component {
                         <p>React.js</p>
                     </div>
 
-                    <br />
-
                     <div className='ui skillCard'>
                         <img src="https://img.icons8.com/officel/40/000000/template.png" />
                         <p>Design</p>
@@ -57,6 +55,11 @@ class Skills extends React.Component {
                     <div className='photoshop skillCard'>
                         <img src="https://img.icons8.com/fluent/48/000000/adobe-photoshop.png" />
                         <p>Photoshop</p>
+                    </div>
+
+                    <div className='invision skillCard'>
+                        <img src="https://img.icons8.com/windows/64/000000/invision.png" />
+                        <p>Invision</p>
                     </div>
                 </div>
             </>

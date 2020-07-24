@@ -1,0 +1,38 @@
+.hiveImg {
+    width: 10em;
+    margin: 3em;
+    margin-left: 3.5em;
+}
+
+.passwordImg {
+    margin: 3.4em 0;
+}
+
+.journalImg {
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 1.2em;
+    width: 10em
+}
+
+.cardBody {
+    text-align: center;
+}
+
+body {
+    margin: 3em auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 70em;
+}
+
+.projectCard {
+    margin: 0 2em;
+}
+
+.projectCard:hover {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-out;
+}
