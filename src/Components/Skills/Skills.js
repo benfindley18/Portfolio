@@ -49,14 +49,14 @@ class Skills extends React.Component {
                         <p>React.js</p>
                     </div>
 
-                    <div className='ui skillCard'>
-                        <img src="https://img.icons8.com/officel/40/000000/template.png"
+                    <div className='design skillCard'>
+                        <img src="https://img.icons8.com/officel/48/000000/template.png"
                             alt='Design Icon' />
                         <p>Design</p>
                     </div>
 
                     <div className='figma skillCard'>
-                        <img src="https://img.icons8.com/windows/40/000000/figma.png"
+                        <img src="https://img.icons8.com/windows/48/000000/figma.png"
                             alt='Figma Icon' />
                         <p>Figma</p>
                     </div>
@@ -68,7 +68,7 @@ class Skills extends React.Component {
                     </div>
 
                     <div className='invision skillCard'>
-                        <img src="https://img.icons8.com/windows/64/000000/invision.png"
+                        <img src="https://img.icons8.com/windows/48/000000/invision.png"
                             alt='Invision Icon' />
                         <p>Invision</p>
                     </div>
