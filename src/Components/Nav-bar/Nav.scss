@@ -4,4 +4,9 @@ hr {
 
 Nav {
     margin-top: -3em;
+        .navbar-nav {
+            a {
+                margin-right: .6em;
+            }
+        }
 }
