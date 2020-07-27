@@ -5,11 +5,12 @@ import Navigation from './Components/Nav-bar/Nav'
 import Contact from './Components/Contact/Contact'
 import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Projects'
+import About from './Components/About/About'
 
 function App() {
   return (
     <>
-      < Projects />
+      < About />
     </>
   );
 }

@@ -19,9 +19,9 @@ class Contact extends React.Component {
                 <hr />
 
                 <div className='icons'>
-                    <a href="https://www.linkedin.com/in/benjamin-findley-a6489a18b/"><img src="https://img.icons8.com/nolan/40/linkedin.png" /></a>
+                    <a href="https://www.linkedin.com/in/benjamin-findley-a6489a18b/"><img src="https://img.icons8.com/nolan/40/linkedin.png" alt='Linkedin Icon' /></a>
 
-                    <a className='github' href="https://github.com/benfindley18"><img src="https://img.icons8.com/nolan/40/github.png" /></a>
+                    <a className='github' href="https://github.com/benfindley18"><img src="https://img.icons8.com/nolan/40/github.png" alt='GitHub Icon' /></a>
                 </div>
 
             </>
