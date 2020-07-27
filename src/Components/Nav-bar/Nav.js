@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Nav.scss'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
@@ -30,4 +31,4 @@ class Navigation extends React.Component {
 }
 
 
-export default Navigation;
+export default withRouter(Navigation);

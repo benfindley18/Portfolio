@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from "react-router-dom";
 import './Contact.scss';
 import ReactContactForm from 'react-mail-form';
 
@@ -9,7 +10,7 @@ class Contact extends React.Component {
     render() {
 
         return (
-            <>
+            <div className='bgArea2' >
                 <div className='contactHeader'>
                     <h1>Contact</h1>
 
@@ -24,10 +25,10 @@ class Contact extends React.Component {
                     <a className='github' href="https://github.com/benfindley18"><img src="https://img.icons8.com/nolan/40/github.png" alt='GitHub Icon' /></a>
                 </div>
 
-            </>
+            </div>
         )
     }
 }
 
 
-export default Contact;
+export default withRouter(Contact);

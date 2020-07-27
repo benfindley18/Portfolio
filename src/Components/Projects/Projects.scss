@@ -26,6 +26,13 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 70em;
+    height: 100vh;
+}
+
+.hive,
+.password,
+.plume {
+    margin-top: 4em;
 }
 
 .projectCard {

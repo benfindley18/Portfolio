@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from "react-router-dom";
 import './About.scss';
 import userPic from '../imgs/profile-pic.jpeg'
 
@@ -10,6 +11,7 @@ class About extends React.Component {
 
         return (
             <>
+                <hr className='divider' />
                 <h1 className='header'>
                     Who am I?
                 </h1>
@@ -29,4 +31,4 @@ class About extends React.Component {
 }
 
 
-export default About;
+export default withRouter(About);

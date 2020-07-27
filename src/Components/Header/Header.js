@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from "react-router-dom";
 import './Header.scss';
 
 class Header extends React.Component {
@@ -8,7 +9,7 @@ class Header extends React.Component {
     render() {
 
         return (
-            <>
+            <div className='bgArea'>
                 <h1>
                     UI / Front-End Developer
                 </h1>
@@ -17,10 +18,10 @@ class Header extends React.Component {
                 </h3>
 
                 <i class="fa fa-github" aria-hidden="true"></i>
-            </>
+            </div>
         )
     }
 }
 
 
-export default Header;
+export default withRouter(Header);

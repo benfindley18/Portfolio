@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from "react-router-dom";
 import './Projects.scss';
 import { Card, Button } from 'react-bootstrap';
 import hiveLogo from '../imgs/hive-icon.png';
@@ -57,4 +58,4 @@ class Projects extends React.Component {
 }
 
 
-export default Projects;
+export default withRouter(Projects);

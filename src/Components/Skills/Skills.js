@@ -1,4 +1,5 @@
 import React from 'react';
+import { withRouter } from "react-router-dom";
 import './Skills.scss';
 
 class Skills extends React.Component {
@@ -8,7 +9,7 @@ class Skills extends React.Component {
     render() {
 
         return (
-            <>
+            <div className='bgArea2'>
                 <h1 className='header'>Skills</h1>
 
                 < div className='container'>
@@ -72,10 +73,10 @@ class Skills extends React.Component {
                         <p>Invision</p>
                     </div>
                 </div>
-            </>
+            </div>
         )
     }
 }
 
 
-export default Skills;
+export default withRouter(Skills);
