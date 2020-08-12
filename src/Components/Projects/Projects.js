@@ -22,7 +22,7 @@ class Projects extends React.Component {
                             <Card.Text>
                                 A collaborative React.js project focused around helping people with their savings
                             </Card.Text>
-                            <Button variant="primary"> More Info </Button>
+                            <Button variant="primary"> Case Study </Button>
                         </Card.Body>
                     </Card>
                 </div>
@@ -35,9 +35,9 @@ class Projects extends React.Component {
                             <Card.Text>
                                 A quick side project testing out a password strength validation user interaction
                             </Card.Text>
-                            <Button variant="primary"> More Info </Button>
+                            <Button variant="primary"><a href="https://uxfol.io/project/0421e41d/The-Hive"> Case Study </a></Button>
                         </Card.Body>
-                    </Card>
+                    </Card>Case Study
                 </div>
 
                 <div className='plume'>
@@ -46,9 +46,9 @@ class Projects extends React.Component {
                         <Card.Body className='cardBody'>
                             <Card.Title>Plume</Card.Title>
                             <Card.Text>
-                                A collaborative design project focused of mindful journaling and helping users understanding mental health
+                                A collaborative design project focused of mindful journaling and mental health
                             </Card.Text>
-                            <Button variant="primary"> More Info </Button>
+                            <Button variant="primary"> Case Study </Button>
                         </Card.Body>
                     </Card>
                 </div>

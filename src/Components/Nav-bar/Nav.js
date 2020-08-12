@@ -15,14 +15,10 @@ class Navigation extends React.Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="navbar">
                     <Nav className="dropdown">
-                        <Nav.Link href="#features"> Home </Nav.Link>
-                        <Nav.Link href="#pricing"> Skills </Nav.Link>
-                        <Nav.Link href="#pricing"> Projects </Nav.Link>
-                        <NavDropdown title=" More " id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1"> About </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2"> Resume </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3"> Contact </NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link href="#home"> Home </Nav.Link>
+                        <Nav.Link href="#skills"> Skills </Nav.Link>
+                        <Nav.Link href="#project"> Projects </Nav.Link>
+                        <Nav.Link href="#resume"> Resume </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </ Navbar>
