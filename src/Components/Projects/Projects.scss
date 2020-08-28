@@ -4,8 +4,11 @@
     margin-left: 3.5em;
 }
 
-.passwordImg {
-    margin: 3.4em 0;
+.weatherImg {
+    margin: 0 auto;
+    width: 12em;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 .journalImg {
@@ -42,4 +45,9 @@ body {
 .projectCard:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
     transition: all 200ms ease-out;
+}
+
+.linkBtn {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }

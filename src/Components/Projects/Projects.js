@@ -3,8 +3,7 @@ import { withRouter } from "react-router-dom";
 import './Projects.scss';
 import { Card, Button } from 'react-bootstrap';
 import hiveLogo from '../imgs/hive-icon.png';
-import passwordLogo from '../imgs/password.jpg';
-import journalIcon from '../imgs/journaling-icon.png'
+import weatherIcon from '../imgs/weather-icon.png'
 
 class Projects extends React.Component {
     state = {}
@@ -14,7 +13,7 @@ class Projects extends React.Component {
 
         return (
             <body>
-                <div className='hive'>
+                <div className='hive' id='projects'>
                     <Card className='projectCard' style={{ width: '18rem' }}>
                         <Card.Img className='hiveImg' variant="top" src={hiveLogo} />
                         <Card.Body className='cardBody'>
@@ -22,36 +21,24 @@ class Projects extends React.Component {
                             <Card.Text>
                                 A collaborative React.js project focused around helping people with their savings
                             </Card.Text>
-                            <Button variant="primary"> Case Study </Button>
+                            <Button variant="primary"><a className='linkBtn' href="https://uxfol.io/project/0421e41d/The-Hive"> More </a></Button>
                         </Card.Body>
                     </Card>
                 </div>
 
                 <div className='password'>
                     <Card className='projectCard' style={{ width: '18rem' }}>
-                        <Card.Img className='passwordImg' variant="top" src={passwordLogo} />
+                        <Card.Img className='weatherImg' variant="top" src={weatherIcon} />
                         <Card.Body className='cardBody'>
-                            <Card.Title>Password Strength</Card.Title>
+                            <Card.Title>Reactive Weather</Card.Title>
                             <Card.Text>
-                                A quick side project testing out a password strength validation user interaction
+                                A simple and streamlined responsive weather site made using OpenWeather API
                             </Card.Text>
-                            <Button variant="primary"><a href="https://uxfol.io/project/0421e41d/The-Hive"> Case Study </a></Button>
-                        </Card.Body>
-                    </Card>Case Study
-                </div>
-
-                <div className='plume'>
-                    <Card className='projectCard' style={{ width: '18rem' }}>
-                        <Card.Img className='journalImg' variant="top" src={journalIcon} />
-                        <Card.Body className='cardBody'>
-                            <Card.Title>Plume</Card.Title>
-                            <Card.Text>
-                                A collaborative design project focused of mindful journaling and mental health
-                            </Card.Text>
-                            <Button variant="primary"> Case Study </Button>
+                            <Button variant="primary"><a className='linkBtn' href="https://reactiveweather.netlify.app/"> More </a></Button>
                         </Card.Body>
                     </Card>
                 </div>
+
             </body>
         )
     }

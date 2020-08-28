@@ -10,3 +10,20 @@ Nav {
             }
         }
 }
+
+.links {
+    color: rgb(209, 209, 209);
+    padding-bottom: .5em;
+        .navLink {
+            margin-top: .5em;
+            color: rgb(238, 238, 238);
+        }
+        .navLink:hover {
+            text-decoration: none;
+        }
+}
+
+.links2 {
+    text-decoration: none;
+    margin-top: .5em;
+}

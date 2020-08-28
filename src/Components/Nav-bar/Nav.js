@@ -1,8 +1,10 @@
 import React from 'react';
 import { withRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Nav } from 'react-bootstrap';
+import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 import './Nav.scss'
-import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 class Navigation extends React.Component {
     state = {}
@@ -14,14 +16,31 @@ class Navigation extends React.Component {
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="navbar">
-                    <Nav className="dropdown">
-                        <Nav.Link href="#home"> Home </Nav.Link>
-                        <Nav.Link href="#skills"> Skills </Nav.Link>
-                        <Nav.Link href="#project"> Projects </Nav.Link>
-                        <Nav.Link href="#resume"> Resume </Nav.Link>
+                    <Nav className="links">
+                        <Link
+                            className='navLink'
+                            activeClass="active"
+                            to="skills"
+                            spy={true}
+                            smooth={true}
+                            duration={400}
+                        > Skills </Link>
+
+                        <Link
+                            className='navLink'
+                            activeClass="active"
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            offset={-60}
+                            duration={400}
+                        > Projects </Link>
+
+                        <a className='navLink' href='https://drive.google.com/file/d/1jTzRNcQx0tDZeS_HcD3gKZCUq8e9nWeJ/view?usp=sharing'> Resume </a>
+
                     </Nav>
                 </Navbar.Collapse>
-            </ Navbar>
+            </ Navbar >
         )
     }
 }
